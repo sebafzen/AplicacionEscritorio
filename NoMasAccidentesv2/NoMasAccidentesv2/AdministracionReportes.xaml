@@ -1,0 +1,19 @@
+﻿<Window x:Class="NoMasAccidentesv2.AdministracionReportes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NoMasAccidentesv2"
+        mc:Ignorable="d"
+        Title="AdministracionReportes" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnVentanaPorfesional" Content="Profesional" HorizontalAlignment="Left" Margin="78,18,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.465,0.36" Height="34" Width="167" BorderBrush="Black" Background="White" Cursor="Hand" Padding="0,0,1,0" BorderThickness="0,0,1,0" Click="btnVentanaPorfesional_Click"/>
+        <Button x:Name="btnVentanaCliente" Content="Clientes" HorizontalAlignment="Left" Margin="245,18,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.465,0.36" Height="34" Width="167" BorderBrush="Black" Background="White" Cursor="Hand" BorderThickness="1,0,1,0" Click="btnVentanaCliente_Click"/>
+        <Button x:Name="btnVentanaContratos" Content="Contratos" HorizontalAlignment="Left" Margin="411,18,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.465,0.36" Height="34" Width="167" BorderBrush="Black" Background="White" Cursor="Hand" BorderThickness="1,0,1,0"/>
+        <Button x:Name="btnVentanaReportes" Content="Reportes" HorizontalAlignment="Left" Margin="578,18,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.465,0.36" Height="34" Width="167" BorderBrush="Black" Background="White" Cursor="Hand" BorderThickness="1,0,0,0" Click="btnVentanaReportes_Click"/>
+        <Label Content="Generar Reportes" HorizontalAlignment="Left" Margin="55,70,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button Content="Reportes Clientes" HorizontalAlignment="Left" Margin="148,199,0,0" VerticalAlignment="Top" Height="75" Width="207" BorderBrush="Black" Background="White" FontSize="18"/>
+        <Button Content="Reportes Globales" HorizontalAlignment="Left" Margin="428,199,0,0" VerticalAlignment="Top" Height="75" Width="207" BorderBrush="Black" Background="White" FontSize="18"/>
+
+    </Grid>
+</Window>

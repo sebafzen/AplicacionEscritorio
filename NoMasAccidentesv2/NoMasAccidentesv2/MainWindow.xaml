@@ -1,0 +1,18 @@
+﻿<Window x:Class="NoMasAccidentesv2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NoMasAccidentesv2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="476.289" Width="880.412">
+    <Grid Loaded="Grid_Loaded">
+        <Label Content="Inicio Sesion" HorizontalAlignment="Left" Margin="55,60,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Ingresar Email:" HorizontalAlignment="Left" Margin="194,129,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Ingresar Contraseña:" HorizontalAlignment="Left" Margin="147,186,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="346,133,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="18"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="346,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="18"/>
+        <Button x:Name="btnIniciarSesion" Content="Iniciar Sesión" HorizontalAlignment="Center" Margin="358,286,300,0" VerticalAlignment="Top" Height="32" Width="134" FontSize="16" Background="White" BorderBrush="#FF020101" Cursor="Hand" Click="btnIniciarSesion_Click"/>
+
+    </Grid>
+</Window>
